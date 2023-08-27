@@ -5,3 +5,11 @@ nav {
     padding: 10px 0;
     font-family: "Lucida Console", "Courier New", monospace;
   }
+
+/* Added display inline to make the navigation bar horizontal */
+/* Added padding for the spacing between the links */
+/* Display inline-block allows me to edit padding/ margin */
+nav li {
+    display: inline-block;
+    padding: 15px
+  }
