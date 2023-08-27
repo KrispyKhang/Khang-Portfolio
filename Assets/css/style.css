@@ -1,22 +1,55 @@
 nav {
-    font-size: 20px;
-    text-align: center;
-    margin: 30px 0 0;
-    padding: 10px 0;
-    font-family: "Lucida Console", "Courier New", monospace;
-  }
+  font-size: 20px;
+  text-align: center;
+  margin: 30px 0 0;
+  padding: 10px 0;
+  font-family: "Lucida Console", "Courier New", monospace;
+}
 
 /* Added display inline to make the navigation bar horizontal */
 /* Added padding for the spacing between the links */
 /* Display inline-block allows me to edit padding/ margin */
 nav li {
-    display: inline-block;
-    padding: 15px
-  }
+  display: inline-block;
+  padding: 15px
+}
 
-  /* Made the anchor tag text black and removed the text deocation
+/* Made the anchor tag text black and removed the text deocation
 that underlines the words. */
 a {
-    color:black;
-    text-decoration: none;
-  }
+  color: black;
+  text-decoration: none;
+}
+
+/* Made iimg height auto so it can remain the same as the browser size increases */
+img {
+  width: 100%;
+  height: auto;
+}
+
+
+
+
+/* Main-profile class and image 1&2 IDs code found online to stack two images on top of each other */
+.main-profile-pic {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+#image1 {
+  position: relative;
+  top: 0px;
+  left: 0px;
+  display: flex;
+  flex-wrap: wrap
+}
+
+#image2 {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  display: flex;
+  flex-wrap: wrap
+}
+
