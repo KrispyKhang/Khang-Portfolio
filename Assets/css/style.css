@@ -41,15 +41,11 @@ img {
   position: relative;
   top: 0px;
   left: 0px;
-  display: flex;
-  flex-wrap: wrap
 }
 
 #image2 {
   position: absolute;
   top: 0px;
   left: 0px;
-  display: flex;
-  flex-wrap: wrap
 }
 
