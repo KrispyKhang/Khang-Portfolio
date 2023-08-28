@@ -1,3 +1,9 @@
+:root {
+  --space-grey: #595959;
+  --black: #000000;
+}
+
+
 nav {
   font-size: 20px;
   text-align: center;
@@ -17,7 +23,7 @@ nav li {
 /* Made the anchor tag text black and removed the text deocation
 that underlines the words. */
 a {
-  color: black;
+  color: var(--space-grey);
   text-decoration: none;
 }
 
