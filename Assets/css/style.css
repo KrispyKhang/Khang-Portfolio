@@ -27,6 +27,7 @@ a {
   text-decoration: none;
 }
 
+
 /* Made iimg height auto so it can remain the same as the browser size increases */
 img {
   width: 100%;
@@ -150,7 +151,14 @@ really liked the gradient box and the black shadow hover, that assignment was he
   font-size: 90%;
   box-shadow: 0 0 10px var(--space-grey) inset;
 }
+.code-block:active {
+  font-size: 90%;
+  box-shadow: 0 0 10px var(--space-grey) inset;
+}
 
+pre a {
+  color: var(--black);
+}
 
 /* using a mobile-first approach, use `min-width` values going from narrow -> wide for a responsive design */
 @media screen and (min-width: 768px) {
