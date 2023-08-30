@@ -145,6 +145,12 @@ really liked the gradient box and the black shadow hover, that assignment was he
   justify-content: center;
 }
 
+/* Added this code to make the butto clickable */
+.code-block:active {
+  font-size: 90%;
+  box-shadow: 0 0 10px var(--space-grey) inset;
+}
+
 
 /* using a mobile-first approach, use `min-width` values going from narrow -> wide for a responsive design */
 @media screen and (min-width: 768px) {
