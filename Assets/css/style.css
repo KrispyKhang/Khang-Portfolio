@@ -1,6 +1,7 @@
 :root {
   --space-grey: #595959;
   --black: #000000;
+  --onyx: #525252; 
 }
 
 
@@ -64,32 +65,27 @@ html {
   font-size: 60%;
 }
 
-body {
-  /* set body font size to 1.75rem, which is 1.75x more than the font-size of 10px, making it 17.5px  */
-  font-size: 1.75rem;
-  line-height: 1.5;
-}
-
 
 h1 {
   font-size: 3.5rem;
+  text-align: center;
+  font-family: "Lucida Console", "Courier New", monospace;
+  color: var(--space-grey);
 }
 
-
-header h1.page-title {
-  padding: 1rem 1.2rem;
-  font-size: 4.5rem;
-}
 
 main {
   width: 100%;
   margin: 2rem auto;
+  font-size: 1.75rem;
+  line-height: 1.5;
 }
 
 
 /* Code below found in Activity 28 in 02 ADV CSS Classwork, I did a lot of modifications
 to the CSS file and HTML file to suit the needs of my portoflio
 really liked the gradient box and the black shadow hover, that assignment was helpful for that */
+
 /* create our main grid with flexbox, use negative margins to offset the padding on the .card-column class */
 .row {
   display: flex;
@@ -151,13 +147,10 @@ really liked the gradient box and the black shadow hover, that assignment was he
   font-size: 90%;
   box-shadow: 0 0 10px var(--space-grey) inset;
 }
-.code-block:active {
-  font-size: 90%;
-  box-shadow: 0 0 10px var(--space-grey) inset;
-}
 
 pre a {
-  color: var(--black);
+  font-size: 18px;
+  color: var(--onyx);
 }
 
 /* using a mobile-first approach, use `min-width` values going from narrow -> wide for a responsive design */
