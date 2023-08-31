@@ -68,7 +68,8 @@ html {
 
 h1 {
   font-size: 3.5rem;
-  text-align: center;
+  display: flex;
+  justify-content: center;
   font-family: "Lucida Console", "Courier New", monospace;
   color: var(--space-grey);
 }
@@ -144,11 +145,11 @@ really liked the gradient box and the black shadow hover, that assignment was he
 
 /* Added this code to make the butto clickable */
 .code-block:active {
-  font-size: 90%;
+  font-size: 95%;
   box-shadow: 0 0 10px var(--space-grey) inset;
 }
 
-pre a {
+pre {
   font-size: 18px;
   color: var(--onyx);
 }
@@ -160,11 +161,6 @@ pre a {
   .card-column {
     flex: 0 0 100%;
     max-width: 100%;
-  }
-
-  /* select the last child to grow to full width if it has space to grow */
-  .card-column:last-child {
-    flex-grow: 1;
   }
 }
 
