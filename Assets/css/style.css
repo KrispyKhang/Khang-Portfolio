@@ -35,7 +35,10 @@ img {
   height: auto;
 }
 
-
+/* Made <p> within footer hidden */
+footer p {
+  display: none;
+}
 
 
 /* Main-profile class and image 1&2 IDs code found online to stack two images on top of each other */
@@ -153,6 +156,7 @@ pre {
   font-size: 18px;
   color: var(--onyx);
 }
+
 
 /* using a mobile-first approach, use `min-width` values going from narrow -> wide for a responsive design */
 @media screen and (min-width: 768px) {
